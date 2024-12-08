@@ -6,7 +6,7 @@ function loadData(){
 
 
 const showData=(values)=>{
-    // console.log(values)
+    console.log(values)
     const mainDiv = document.getElementById('main-div')
     for(const value of values){
         const div = document.createElement('div')
